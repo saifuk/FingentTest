@@ -16,7 +16,7 @@ class StudentController extends Controller
     public function index(Request $request)
     {
         //
-        
+
         $students = Student::join('teachers', 'students.teacher', '=', 'teachers.id')
             ->select('students.*', 'teachers.name as teacherName')->paginate(10);
         return view('student.index', compact('students'))
