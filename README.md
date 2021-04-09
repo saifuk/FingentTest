@@ -5,4 +5,4 @@ Installation Steps:
 4.4.Run command php artisan key:generate. 
 5.5.Run command php artisan migrate. 
 6.6.Run command php artisan db:seed. 
-7.7.Run command php artisan serve and get the link in browser.
+7.Run command php artisan serve and get the link in browser.
